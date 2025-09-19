@@ -1,12 +1,11 @@
 package com.example.miniprojectgroupd
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.miniprojectgroupd.R   // ganti ke namespace project kamu
-import com.example.miniprojectgroupd.User // ganti sesuai lokasi User.kt
 
 class UserAdapter(private val userList: List<User>) :
     RecyclerView.Adapter<UserAdapter.UserViewHolder>() {
@@ -25,6 +24,7 @@ class UserAdapter(private val userList: List<User>) :
         return UserViewHolder(view)
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
         val user = userList[position]
         holder.tvName.text = user.name

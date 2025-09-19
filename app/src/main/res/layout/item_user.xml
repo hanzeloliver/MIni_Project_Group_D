@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="12dp">
@@ -16,7 +17,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:contentDescription="Profile Picture" />
+        android:contentDescription="Profile Picture"
+        tools:ignore="HardcodedText" />
 
     <!-- Nama -->
     <TextView
@@ -29,7 +31,8 @@
         app:layout_constraintTop_toTopOf="@+id/imgProfile"
         app:layout_constraintStart_toEndOf="@+id/imgProfile"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginStart="12dp"/>
+        android:layout_marginStart="12dp"
+        tools:ignore="HardcodedText" />
 
     <!-- Email -->
     <TextView
@@ -39,7 +42,8 @@
         android:text="Email"
         app:layout_constraintTop_toBottomOf="@+id/tvName"
         app:layout_constraintStart_toStartOf="@+id/tvName"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="HardcodedText" />
 
     <!-- NIM -->
     <TextView
@@ -49,7 +53,8 @@
         android:text="NIM"
         app:layout_constraintTop_toBottomOf="@+id/tvEmail"
         app:layout_constraintStart_toStartOf="@+id/tvName"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="HardcodedText" />
 
     <!-- Phone -->
     <TextView
@@ -59,6 +64,7 @@
         android:text="Phone"
         app:layout_constraintTop_toBottomOf="@+id/tvNim"
         app:layout_constraintStart_toStartOf="@+id/tvName"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="HardcodedText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

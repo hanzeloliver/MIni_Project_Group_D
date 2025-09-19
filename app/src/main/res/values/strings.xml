@@ -1,3 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MIni Project Group D</string>
+    <!-- App -->
+    <string name="app_name">User Directory</string>
+
+    <!-- Labels untuk item user -->
+    <string name="label_name">Nama</string>
+    <string name="label_email">Email</string>
+    <string name="label_nim">NIM</string>
+    <string name="label_phone">Telepon</string>
+    <string name="label_profile">Foto Profil</string>
+
+    <!-- Placeholder / Descriptions -->
+    <string name="loading_text">Memuat…</string>
+    <string name="recycler_content_description">Daftar pengguna</string>
+    <string name="profile_image_desc">Foto profil pengguna</string>
+
+    <!-- Pesan/Toast -->
+    <string name="toast_fetch_error">Gagal mengambil data</string>
+    <string name="toast_no_data">Data kosong</string>
 </resources>
