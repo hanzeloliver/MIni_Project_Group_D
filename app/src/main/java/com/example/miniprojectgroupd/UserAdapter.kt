@@ -5,8 +5,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.userdirectory.R
-import com.example.userdirectory.model.User
+import com.example.miniprojectgroupd.R   // ganti ke namespace project kamu
+import com.example.miniprojectgroupd.User // ganti sesuai lokasi User.kt
 
 class UserAdapter(private val userList: List<User>) :
     RecyclerView.Adapter<UserAdapter.UserViewHolder>() {
